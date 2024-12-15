@@ -1,2 +1,2 @@
 Repositorio de automatizaciones
-autor: Franco Ibanez
+autor: Franco Iban ez
