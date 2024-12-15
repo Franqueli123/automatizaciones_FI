@@ -8,8 +8,8 @@ exports.HomePage = class HomePage {
   constructor(page) {
     this.page = page;
     this.locatorBotonSign = page.locator("xpath=(//span[@class='hidden-sm-down'])[1]")
-    this.localStorage = page.locator("xpath=//input[@id='sign-username']")
-    this.localStorage2 = page.locator("xpath=//input[@id='sign-password']")
+    this.localStorage = page.locator("xpath=//input[@placeholder='Ingresa desde dónde viajas']")
+    this.localStorage2 = page.locator("xpath=//input[@placerholder='Ingresa hacia dónde viajas']")
     this.locatorBotonSign2 = page.locator("xpath=//button[@onclick='register()']")
   }
 
